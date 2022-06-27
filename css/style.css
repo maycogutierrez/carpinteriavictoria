@@ -15,6 +15,17 @@ li{
     list-style: none;
 }
 
+.tcarrucel{
+    color: #000;
+}
+.stcarrucel{
+    color: #000;
+}
+
+
+.imgboos{
+    width: 550px !important;
+}
 .nave__icon{
     display: none;
 }
