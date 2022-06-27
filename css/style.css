@@ -22,9 +22,14 @@ li{
     color: #000;
 }
 
+.img-fluid{
+    width: 550px;
+}
 
 .imgboos{
     width: 550px !important;
+    display: block;
+    margin: auto;
 }
 .nave__icon{
     display: none;
