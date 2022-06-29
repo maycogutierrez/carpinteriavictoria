@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,18 +10,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://kit.fontawesome.com/617559ce87.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,600;0,700;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,600;0,700;1,500&display=swap"
+        rel="stylesheet">
     <title>Carpinteria Victoria-Inicio</title>
 </head>
+
 <body>
-    <header class="header"> 
+    <header class="header">
         <a href="../index.html">
             <img src="../img/porton.jpg" alt="" class="logo">
         </a>
         <a class="header__open" href="#navebarra">
             <i class="headerIcon fa-solid fa-bars"></i>
         </a>
-        <nav class="nave" id="navebarra"><!-- BARRA DE NAVEGACION -->
+        <nav class="nave" id="navebarra">
+            <!-- BARRA DE NAVEGACION -->
             <ul class="nave__lista">
                 <li class="nave__icon"><a href="#"><i class="cerrar fa-solid fa-xmark"></i></a></li>
                 <li class="nave__item"><a href="../index.html" class="nave__enlace">Inicio</a></li>
@@ -32,37 +36,45 @@
         </nav>
     </header>
 
-    <main class="cuerpo"><!-- CUERPO DE LA PAGINA -->
+    <main class="cuerpo">
+        <!-- CUERPO DE LA PAGINA -->
         <h2 class="cuerpo__titulom">Ponerse en contacto con nosotros</h2>
-        <form action="formulario.php" class="cuerpo__form">
+    <div class="cuerpo__div">
+        <form class="">
             <div class="cuerpo__formulario">
-                <label for="campo-nombre">Nombre  Y Apellido</label>
-                <input type="text" id="campo-nombre" placeholder="Nombre y Apellido">
-            <div class="cuerpo__formulario">
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="ejemplo@gmail.com">
-           </div>
-            <div class="cuerpo__formulario">
-                <label for="telefono">Numero de Telefono</label>
-                <input type="tel" id="telefono" placeholder="3572999999">
-           </div>
-           <div class="cuerpo__formulario">
-                <label for="box-text">Desea realizar una consulta</label>
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
             </div>
             <div class="cuerpo__formulario">
-                <textarea name="box-text" id="box-text" cols="30" rows="10" placeholder="Deje aqui su consulta"></textarea>
-                <button>Enviar</button>
+                <label for="campo-nombre" class="form-label">Nombre y Apellido</label>
+                <input type="text" class="form-control" id="inputPassword4">
+            </div>
+            <div class="cuerpo__formulario">
+                <label for="inputTelefono" class="form-label">Numero de Telefono</label>
+                <input type="tel" class="form-control" id="telefono" placeholder="3572999999">
+            </div>
+            <div class="cuerpo__formulario">
+                <label for="inputState" class="form-label">Dejanos tu mensaje:</label>
+            </div>
+            <div class="cuerpo__formulario">
+                <textarea name="box-text" id="box-text" cols="30" rows="10" placeholder="Texto de Ejemplo"></textarea>
+                <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
         </form>
+    </div>
     </main>
 
     <footer class="pie">
         <p class="pie__titulo">Copyright © 2022. Todos Los Derechos Reservados</p>
         <div class="pie__icono">
-         <a href="./pages/nosotros.html#ubicacion" class="pie__enlace"><i class="icono fa-solid fa-location-pin"></i></a>
-          <a href="https://www.instagram.com/carpinteriavictoria1/" target="_blank" class="pie__enlace"><i class="icono fa-brands fa-instagram"></i></a>
-          <a href="https://www.facebook.com/Carpinter%C3%ADa-Victoria-260233964384258/" target="_blank" class="pie__enlace"><i class="icono fa-brands fa-facebook"></i></i></a>
+            <a href="./pages/nosotros.html#ubicacion" class="pie__enlace"><i
+                    class="icono fa-solid fa-location-pin"></i></a>
+            <a href="https://www.instagram.com/carpinteriavictoria1/" target="_blank" class="pie__enlace"><i
+                    class="icono fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/Carpinter%C3%ADa-Victoria-260233964384258/" target="_blank"
+                class="pie__enlace"><i class="icono fa-brands fa-facebook"></i></i></a>
         </div>
     </footer>
 </body>
+
 </html>

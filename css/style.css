@@ -35,6 +35,9 @@ li{
     width: 500px;
 }
 
+
+
+
 /* fin de boostrap */
 
 .nave__icon{
@@ -92,53 +95,7 @@ li{
     font-weight: 700;
 }
 
-.cuerpo__grid{
-    padding-top: 40px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 40px 1fr;
-    grid-template-areas: 
-    "ere1 ere2"
-    "ere3 ere4";
 
-    align-items: center;
-    justify-items: center;
-}
-
-.cuerpo__tmadera--hijo1{
-    grid-area: ere1;
-
-    font-size: 10px;
-    font-weight: bolder;
-}
-
-.cuerpo__taluminio--hojo2{
-    grid-area: ere2;
-
-    font-size: 10px;
-    font-weight: bold;
-}
-
-.cuerpo__madera--hojo3{
-    grid-area: ere3;
-
-    width: 130px;
-    height: 90px;
-    border-radius: 10%;
-}
-
-.cuerpo__aluminio--hojo4{
-    grid-area: ere4;
-
-    width: 130px;
-    border-radius: 10%;
-}
-
-.cuerpo__titulom{
-    text-align: center;
-    padding-top: 10px;
-    font-size: 15px;
-}
 
 /* aluminio */
 .cuerpo__aluminio{
@@ -222,18 +179,17 @@ li{
 }
 
 /* Cuerpo Formulario */
+
 .cuerpo__formulario{
     text-align:left;
-    margin: 3rem;
+    margin: 1.5rem;
 }
 
-.cuerpo__form{
+.cuerpo__div{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;  
+    align-items: center;    
 }
-
 
 
 /* Footer de todas los html */
@@ -250,8 +206,13 @@ li{
 }
 
 .pie__enlace{
-    display: block;
+    display:inline;
     margin-left: 1rem;
+    width: 20px;
+} 
+.pie__icono{
+    display: flex;
+    flex-direction: column;
 }
 .icono{
     color: #fff;
