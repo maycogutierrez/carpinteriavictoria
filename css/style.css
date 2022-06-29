@@ -18,15 +18,21 @@ li{
 
 /* boostrap */
 .tcarrucel{
-    color: #000;
+    color: #e8fbff;
 }
 .stcarrucel{
-    color: #000;
+    color: #e8fbff;
 }
 
 
 .img-fluid{
     width: 550px;
+}
+.card{
+    width: 500px;
+}
+.card-img-top{
+    width: 500px;
 }
 
 /* fin de boostrap */
