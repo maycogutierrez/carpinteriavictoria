@@ -12,6 +12,7 @@
     <script src="https://kit.fontawesome.com/617559ce87.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,600;0,700;1,500&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="../css/boostrap/bootstrap.min.css">
     <title>Carpinteria Victoria-Inicio</title>
 </head>
 
@@ -39,7 +40,7 @@
     <main class="cuerpo">
         <!-- CUERPO DE LA PAGINA -->
         <h2 class="cuerpo__titulom">Ponerse en contacto con nosotros</h2>
-    <div class="cuerpo__div">
+        <!--     <div class="cuerpo__div">
         <form class="">
             <div class="cuerpo__formulario">
                 <label for="inputEmail4" class="form-label">Email</label>
@@ -60,8 +61,30 @@
                 <textarea name="box-text" id="box-text" cols="30" rows="10" placeholder="Texto de Ejemplo"></textarea>
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
+        </form> -->
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control tamañoe" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+                <label for="campo-nombre" class="form-label">Nombre y Apellido</label>
+                <input type="text" class="form-control tamañoe" id="inputPassword4">
+            </div>
+            <div class="col-12">
+                <label for="inputTelefono" class="form-label">Numero de Telefono</label>
+                <input type="tel" class="tamañot form-control" id="telefono" placeholder="3572999999">
+            </div>
+            <div class="col-md-6">
+                <label for="inputState" class="form-label">Dejanos tu mensaje:</label>
+<!--                 <input type="text" class="form-control" id="inputCity"> -->
+                <textarea name="box-text" id="" cols="20" rows="8" class="form-control tamañob" placeholder="Texto de Ejemplo"></textarea>
+            </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
         </form>
-    </div>
     </main>
 
     <footer class="pie">
@@ -75,6 +98,7 @@
                 class="pie__enlace"><i class="icono fa-brands fa-facebook"></i></i></a>
         </div>
     </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

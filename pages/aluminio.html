@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,600;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/boostrap/bootstrap.min.css">
     <title>Carpinteria Victoria-Inicio</title>
 </head>
 <body>
@@ -33,12 +34,55 @@
 
     <main class="cuerpo"><!-- CUERPO DE LA PAGINA -->
         <h2 class="cuerpo__titulom">Nuestros Trabajos en Aberturas de Aluminio</h2>
-        <div class="cuerpo__aluminio">
+<!--         <div class="cuerpo__aluminio">
             <img class="cuerpo__aluminio--hijo1" src="../img/garaje.jpg" alt="">
             <img class="cuerpo__aluminio--hijo2" src="../img/garaje.jpg" alt="">
             <img class="cuerpo__aluminio--hijo3" src="../img/garaje.jpg" alt="">
             <img class="cuerpo__aluminio--hijo4" src="../img/garaje.jpg" alt="">
-        </div>
+        </div> -->
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-inner ">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="../img/garaje.jpg" class="rounded mx-auto d-block img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="tcarrucel">First slide label</h5>
+                            <p class="stcarrucel">Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img src="../img/garaje.jpg" class="rounded mx-auto d-block img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="tcarrucel">Second slide label</h5>
+                            <p class="stcarrucel">Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img src="../img/garaje.jpg" class="rounded mx-auto d-block img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="tcarrucel">Third slide label</h5>
+                            <p class="stcarrucel">Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img src="../img/garaje.jpg" class="rounded mx-auto d-block img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="tcarrucel">Third slide label</h5>
+                            <p class="stcarrucel">Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
 
     </main>
 
@@ -50,5 +94,6 @@
           <a href="https://www.facebook.com/Carpinter%C3%ADa-Victoria-260233964384258/" target="_blank" class="pie__enlace"><i class="icono fa-brands fa-facebook"></i></i></a>
         </div>
     </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
