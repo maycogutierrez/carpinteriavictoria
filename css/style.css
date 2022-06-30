@@ -29,16 +29,16 @@ li{
     width: 550px;
 }
 .card{
-    width: 500px;
+    width: 320px !important;
 }
 .card-img-top{
-    width: 500px;
-    height: 350px;
+    width: 320px;
+    height: 250px;
 }
 
 .card-img-top2{
-    width: 500px;
-    height: 350px;
+    width: 320px;
+    height: 250px;
 }
 
 .tamañot{
@@ -52,7 +52,9 @@ li{
     width: 60% !important;
 }
 
-
+.container{
+    width: 320px !important;
+}
 
 
 
