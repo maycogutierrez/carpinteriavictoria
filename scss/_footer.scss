@@ -1,0 +1,29 @@
+/* Footer */
+.pie {
+    background-color: #202124;
+}
+
+.pie__titulo {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    font-size: 10px;
+}
+
+.pie__enlace {
+    display: inline;
+    margin-left: 1rem;
+    width: 20px;
+}
+
+.pie__icono {
+    display: flex;
+    flex-direction: column;
+}
+
+.icono {
+    color: #fff;
+}
+
+/* Fin Footer */

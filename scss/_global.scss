@@ -1,0 +1,25 @@
+/* global */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* Barra de scroll oculta */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* fin global */
