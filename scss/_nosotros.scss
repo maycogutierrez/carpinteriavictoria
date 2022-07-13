@@ -1,38 +1,39 @@
 /* cuerpo nosotros */
-.section {
+.section{
     padding-top: 70px;
     display: grid;
     grid-template-columns: 351px 450px 450px;
     grid-template-rows: 50px 1fr;
-    grid-template-areas:
-        "ese3 ese1 ese4"
-        "ese3 ese2 ese5";
+    grid-template-areas: 
+    "ese3 ese1 ese4"
+    "ese3 ese2 ese5";
 
     justify-items: center;
     justify-content: center;
 
     gap: 1rem;
+    &__titulo--hijo1{
+        grid-area: ese1;
+    }
+    &__parrafo--hijo2{
+        grid-area: ese2;
+    }
+    &__img--hijo3{
+        grid-area: ese3;
+    
+        width: 350px;
+    }
+    &__titulo2--hijo4{
+        grid-area: ese4;
+    }
+    &__mapa--hijo5{
+        grid-area: ese5;
+    }
 }
 
-.section__titulo--hijo1 {
-    grid-area: ese1;
-}
 
-.section__parrafo--hijo2 {
-    grid-area: ese2;
-}
 
-.section__img--hijo3 {
-    grid-area: ese3;
 
-    width: 350px;
-}
 
-.section__titulo2--hijo4 {
-    grid-area: ese4;
-}
 
-.section__mapa--hijo5 {
-    grid-area: ese5;
-}
 /* fin nosotros */

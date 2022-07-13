@@ -1,29 +1,28 @@
-/* Footer */
-.pie {
+/* Footer de todas los html */
+.pie{
     background-color: #202124;
+    &__titulo{
+        color: #fff;
+        text-align: center;
+        position: relative;
+        top: 70px;
+        font-size: 10px;
+    }
+    &__enlace{
+        display:inline;
+        margin-left: 1rem;
+        width: 20px;
+    } 
+    &__icono{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-.pie__titulo {
-    color: #fff;
-    text-align: center;
-    position: relative;
-    top: 70px;
-    font-size: 10px;
-}
 
-.pie__enlace {
-    display: inline;
-    margin-left: 1rem;
-    width: 20px;
-}
 
-.pie__icono {
-    display: flex;
-    flex-direction: column;
-}
 
-.icono {
-    color: #fff;
+.icono{
+    color: $color-red1;
 }
-
 /* Fin Footer */
