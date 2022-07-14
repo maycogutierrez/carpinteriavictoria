@@ -4,9 +4,9 @@
     min-height: 100vh;
     /* background-image: url(../img/porton-uno.jpg) */;
     &__titulo{
-        text-align: center;
-        font-size: 15px;
-        font-weight: 700;
+        text-align: map-get($estilos, center);
+        font-size: map-get($estilos, 15px);
+        font-weight: map-get($estilos, 700);
     }
 }
 

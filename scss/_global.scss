@@ -21,3 +21,14 @@ li{
 }
 
 /* fin global */
+
+$estilos: (
+    text-align: center,
+    font-size: 15px,
+    font-weigth:700,
+);
+
+@mixin size($width,$heigth){
+    height:$heigth ;
+    width: $width ;
+}
