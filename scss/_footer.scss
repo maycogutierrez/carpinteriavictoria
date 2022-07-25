@@ -1,21 +1,24 @@
 /* Footer de todas los html */
 .pie{
     background-color: #202124;
+    width: 100%;
+    height: 100px;
     &__titulo{
         color: #fff;
-        text-align: center;
+        text-align:right;
         position: relative;
-        top: 70px;
+        margin-right: 3rem;
+        top: 40px;
         font-size: 10px;
     }
     &__enlace{
         display:inline;
-        margin-left: 1rem;
+        margin-left: 3rem;
         width: 20px;
     } 
     &__icono{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 }
 

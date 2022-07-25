@@ -47,36 +47,35 @@
                     aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
                     aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
-                    aria-label="Slide 4"></button>
+<!--                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button> -->
             </div>
             <div class="carousel-inner">
                 <div class="carousel-inner ">
                     <div class="carousel-item active" data-bs-interval="5000">
                         <img src="../img/garaje.jpg" class="rounded mx-auto d-block img-fluid" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5 class="tcarrucel">Porton de Garaje</h5>
-                            <p class="stcarrucel">Revestimiento de porton con aluminio pintando en similmadera, con terminaciones de aluminio crudo pulido</p>
+                            <a href="#porton"><h5 class="tcarrucel">Porton de Garaje</h5></a>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="5000">
-                        <img src="../img/mampara-uno.jpg" class="rounded mx-auto d-block img-fluid" alt="...">
+                        <img src="../img/mampara-uno.jpg" class="img-m rounded mx-auto d-block img-fluid" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5 class="tcarrucel">Mampara de Baño</h5>
+                            <a href="#mampara"><h5 class="tcarrucel">Mampara de Baño</h5></a>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="5000">
-                        <img src="../img/mampara-dos.jpg" class="rounded mx-auto d-block img-fluid" alt="...">
+                        <img src="../img/aluminio-uno.jpg" class="img-g rounded mx-auto d-block img-fluid" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5 class="tcarrucel">Mampara de Baño</h5>
+                            <a href="#gym"><h5 class="tcarrucel">Aberturas de Gym</h5></a>
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="5000">
-                        <img src="../img/mampara-tres.jpg" class="rounded mx-auto d-block img-fluid" alt="...">
+<!--                     <div class="carousel-item" data-bs-interval="5000">
+                        <img src="../img/mampara-tres.jpg" class="img-m rounded mx-auto d-block img-fluid" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5 class="tcarrucel">Mampara de Baño</h5>
+                            <a href=""><h5 class="tcarrucel">Porton de Garaje</h5></a>
                         </div>
-                    </div>
+                    </div> -->
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -91,11 +90,55 @@
             </div>
 
     </main>
-
+    <section class="portada2">
+        <div class="divGrande">
+            <div class="primero">
+                <img class="img-uno" src="../img/garaje.jpg" alt="">
+                <img class="img-dos" src="../img/garaje.jpg" alt="">
+                <img class="img-tres" src="../img/garaje.jpg" alt="">
+                <img class="img-cuatro" src="../img/garaje.jpg" alt="">
+                </div>
+                <div class="segundo">
+                    <h1 class="tituloDiv" id="porton">Porton</h1>
+                    <p class="tituloParrafo">Revestimiento de porton con aluminio pintando en similmadera, 
+                        con terminaciones de aluminio crudo pulido</p>
+                </div>
+        </div>
+    </section>
+    <section class="portada2">
+        <div class="divGrande">
+            <div class="primero">
+                <img class="img-uno" src="../img/mampara-uno.jpg" alt="">
+                <img class="img-dos" src="../img/mampara-tres.jpg" alt="">
+                <img class="img-tres" src="../img/mampara-dos.jpg" alt="">
+                <img class="img-cuatro" src="../img/mampara-uno.jpg" alt="">
+                </div>
+                <div class="segundo">
+                    <h1 class="tituloDiv" id="mampara">Galeria</h1>
+                    <p class="tituloParrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste,
+                    ullam voluptatum nesciunt laudantium et illum asperiores fugit aperiam obcaecati, porro
+                    harum ut culpa a soluta assumenda deserunt. Totam, error fugiat.</p>
+                </div>
+        </div>
+    </section>
+    <section class="portada2">
+        <div class="divGrande">
+            <div class="primero">
+                <img class="img-uno" src="../img/aluminio-uno.jpg" alt="">
+                <img class="img-cuatro" src="../img/aluminio-dos.jpg" alt="">
+                </div>
+                <div class="segundo">
+                    <h1 class="tituloDiv" id="gym">Galeria</h1>
+                    <p class="tituloParrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste,
+                    ullam voluptatum nesciunt laudantium et illum asperiores fugit aperiam obcaecati, porro
+                    harum ut culpa a soluta assumenda deserunt. Totam, error fugiat.</p>
+                </div>
+        </div>
+    </section>
     <footer class="pie">
         <p class="pie__titulo">Copyright © 2022. Todos Los Derechos Reservados</p>
         <div class="pie__icono">
-            <a href="./pages/nosotros.html#ubicacion" class="pie__enlace"><i
+            <a href="../pages/nosotros.html#ubicacion" class="pie__enlace"><i
                     class="icono fa-solid fa-location-pin"></i></a>
             <a href="https://www.instagram.com/carpinteriavictoria1/" target="_blank" class="pie__enlace"><i
                     class="icono fa-brands fa-instagram"></i></a>
